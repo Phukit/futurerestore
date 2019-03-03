@@ -193,10 +193,12 @@ If you have signing tickets files for iOS 9.x which do not contain an ApNonce, y
 1. Connect your device in DFU mode;
 2. On the computer run `futurerestore -t ticket.shsh --latest-baseband ios9.ipsw`
 
-## 6) Windows 10
+---
+
+## 6) Windows 10 Restore
 ### How to use
 1.  Try to restore the phone, error -8 occurs
-2.  Leave the phone plugged, it will stay on the Recovery screen
+2.  Leave the phone plugged in, it will stay on the Recovery screen
 3.  Head over to Device manager under control panel in Windows
 4.  Locate "Apple Recovery (iBoot) USB Composite Device (at the bottom)
 5.  Right click, choose "Uninstall device" - You may see a tick box that allows you to uninstall the driver software as well, tick that
